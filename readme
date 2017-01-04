@@ -1,0 +1,12 @@
+//generate bundle.js in production mode
+```
+NODE_ENV=production node_modules/.bin/webpack -p
+```
+
+//use the module http-server (previously installed as development dependency) to run a simple static file web server
+```
+node_modules/.bin/http-server src/static
+```
+
+
+NODE_ENV=production node_modules/.bin/babel-node --presets 'react,es2015' src/server.js
